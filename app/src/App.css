@@ -1,0 +1,30 @@
+.container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1:hover {
+    color: rgb(150, 9, 9);
+}
+
+#inp {
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 25%;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+}
+
+#btn {
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+#btn:hover {
+    color: white;
+    background-color: black;
+}

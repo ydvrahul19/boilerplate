@@ -69,8 +69,7 @@ To remove the bits from the copied code such that the test cases are failing, yo
 
 In the 'boilerplate' folder, you need to remove the parts of the code that use the 'useRef' hook. Here's the code after removing those parts:
 
-![image](https://user-images.githubusercontent.com/85828386/218949287-c9bca4e0-fc66-4f7c-8694-6a34441c17ef.png)
-
+![image](https://user-images.githubusercontent.com/85828386/218952212-ee9289c0-2a21-4ae8-bb87-98290c52b222.png)
 
 And the testcases in Cypress will now fail because they expect the input to be focused after clicking the button, but since the useRef hook has been removed, the input can no longer be focused programmatically.
 

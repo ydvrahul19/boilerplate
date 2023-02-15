@@ -1,4 +1,7 @@
-# boilerplate
+#UseRef Hook Boilerplate Assignment
+
+#Boilerplate
+
 PROBLEM STATEMENT: 
 
 Make a small app which demonstrates the topic “useRef hook” in React.
@@ -9,6 +12,16 @@ After the App using that concept is done, copy the whole source code of the app 
  Remove the bits from the copied code such that the testcases you wrote earlier are failing
 
 SOLUTION:
+
+#Steps
+1.Write the code using CRA. 
+2.Open the code in your preferred code editor.
+3.Import the useRef hook from the React library.
+4.Use the useRef hook to create a reference to the input field.
+5.Pass the reference to the input field as the ref prop.
+6.Add an event handler to the button that focuses the input field when clicked.
+7.Test your implementation by running the testcases.
+8.Remove the bits so that the testcases are falling.
 
 Firstly here is simple example for use the  'useRef' hook in App.js file in react. 
 ![image](https://user-images.githubusercontent.com/85828386/218945518-35f768d3-e67a-45a3-8da4-95fd9494afd4.png)
@@ -55,10 +68,9 @@ To remove the bits from the copied code such that the test cases are failing, yo
 
 In the 'boilerplate' folder, you need to remove the parts of the code that use the 'useRef' hook. Here's the code after removing those parts:
 
+![image](https://user-images.githubusercontent.com/85828386/218949287-c9bca4e0-fc66-4f7c-8694-6a34441c17ef.png)
 
 
 And the testcases in Cypress will now fail because they expect the input to be focused after clicking the button, but since the useRef hook has been removed, the input can no longer be focused programmatically.
-
-This can involve deleting or changing lines of code that are critical to the test's success, or introducing errors or bugs into the code that the test is checking. 
 
 Once the modifications are made, you should run the test suite again to confirm that the tests are indeed failing as expected.

@@ -23,8 +23,9 @@ SOLUTION:
 7.Test your implementation by running the testcases.
 8.Remove the bits so that the testcases are falling.
 
-Firstly here is simple example for use the  'useRef' hook in App.js file in react. 
-![image](https://user-images.githubusercontent.com/85828386/218945518-35f768d3-e67a-45a3-8da4-95fd9494afd4.png)
+Firstly here is simple example for use the  'useRef' hook in App.js file in react.
+
+![image](https://user-images.githubusercontent.com/85828386/218951470-63cd72e9-dd02-4a56-adb8-d9a51ab6bf20.png)
 
 This example demonstrates how to create a reference to an input element and then focus it when a button is clicked.
 

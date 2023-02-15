@@ -15,12 +15,19 @@ SOLUTION:
 
 #Steps 
 1.Write the code using CRA. 
+
 2.Open the code in your preferred code editor.
+
 3.Import the useRef hook from the React library.
+
 4.Use the useRef hook to create a reference to the input field.
+
 5.Pass the reference to the input field as the ref prop.
+
 6.Add an event handler to the button that focuses the input field when clicked.
+
 7.Test your implementation by running the testcases.
+
 8.Remove the bits so that the testcases are falling.
 
 Firstly here is simple example for use the  'useRef' hook in App.js file in react.
